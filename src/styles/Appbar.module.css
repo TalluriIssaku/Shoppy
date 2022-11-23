@@ -1,0 +1,39 @@
+.appbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+.appbar a{
+  color:#000;
+  text-decoration: none;
+  height: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h1{
+    padding-right:6vw;
+    font-weight:bolder;
+}
+
+.icons {
+    position: relative;
+}
+.badge{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:red;
+    color:#fff;
+    position: absolute;
+    top:-12px;
+    right:-10px;
+    font-size:10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight:bolder
+}

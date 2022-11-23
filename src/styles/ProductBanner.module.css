@@ -1,0 +1,41 @@
+.ProductBanner {
+  padding: 20px;
+  box-shadow: 1px 1px 3px #a6a6a6;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.ProductBanner img {
+  width: 50px;
+  height: auto;
+}
+.ProductBanner select {
+  width: 100px;
+  height: 30px;
+}
+.title {
+  width: 300px;
+}
+@media only screen and (max-width: 700px) {
+  .ProductBanner {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+  }
+  .title {
+    width: 100%;
+  }
+  .ProductBanner {
+    align-items: center;
+  }
+  .ProductBanner img {
+    width: 100%;
+    height: auto;
+  }
+  .ProductBanner select {
+    width: 200px;
+  }
+}
